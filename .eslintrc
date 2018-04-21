@@ -1,0 +1,19 @@
+{
+    "extends": "react-app",
+    "parser": "babel-eslint",
+    "env": {
+        "jest": true,
+        "jasmine": true
+    },
+    "plugins": ["flowtype", "react"],
+    "rules": {
+        "quotes": ["error", "single"],
+        "import/prefer-default-export": "off",
+        "max-len": [2, 120],
+        "prefer-arrow-callback": 0,
+        "arrow-parens": [2, "always"],
+        "flowtype/space-after-type-colon": [2, "always"],
+        "no-console": "error"
+    }
+}
+  
